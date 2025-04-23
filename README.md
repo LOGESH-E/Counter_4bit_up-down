@@ -42,6 +42,7 @@ Functional Simulation:
       
 	After this you can see the window like below 
 
+![Screenshot (39)](https://github.com/user-attachments/assets/5048550b-7afd-455d-9c16-ef552e1088a9)
 
 ## Fig 2: Invoke the Cadence Environment
 
@@ -75,11 +76,15 @@ Functional Simulation:
 
 It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple step
 
+![Screenshot (41)](https://github.com/user-attachments/assets/ffe27ffd-2e96-4045-b4ce-a22956872c60)
+
 ## Fig 3: Setting Multi-step simulation
 
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure
 
 Click the cds.lib file and save the file by clicking on Save option
+
+![Screenshot (42)](https://github.com/user-attachments/assets/017b8731-513b-40f2-a514-a82a3d561ac5)
 
 ## Fig 4: cds.lib file Creation
 
@@ -88,6 +93,8 @@ Click the cds.lib file and save the file by clicking on Save option
 	Select “Don’t include any libraries (verilog design)” from “New cds.lib file” and click on “OK” as in below figure
 
 	We are simulating verilog design without using any libraries
+
+![Screenshot (43)](https://github.com/user-attachments/assets/f0ad17a3-bb52-4337-9ded-54ca91dc9da9)
 
 ## Fig 5: Selection of Don’t include any libraries
 
@@ -98,6 +105,8 @@ Click the cds.lib file and save the file by clicking on Save option
 	Left side you can see the HDL files. Right side of the window has worklib and snapshots directories listed.
 
 	Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
+
+![Screenshot (44)](https://github.com/user-attachments/assets/18f7eb1c-1166-4b35-b939-0c2a4f43cae8)
 
 ## Fig 6: Nclaunch Window
 
@@ -122,6 +131,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 Left side select the file and in Tools : launch verilog compiler with current selection will get enable. Click it to compile the code 
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation 
+
 
 ## Fig 7: Compiled database in worklib
 
